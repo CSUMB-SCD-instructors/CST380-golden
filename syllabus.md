@@ -1,117 +1,136 @@
-# [COURSE_CODE] ([COURSE_NAME]) Syllabus
-
-Note: All syllabi should conform to the defined syllabus structure.
-For CSUMB that is under section 3.10 of [this document](https://csumb.edu/policy/course-syllabus-policy/).
+# CST380 (Mobile and Ubiquitous Computing) Syllabus
 
 ## Summary
 
-[Brief description of the course goals and what students will learn]
+The goal of this course is to introduce you to the design and usage of operating systems.
+By the end of it, the goal is for you to be able to think about how to design core parts of the operating system, as well as be able to explain why design decisions were made along the way, and know how to navigate and develop software in a systems-oriented manner.
 
 - **Grading:**
-[Add grading details here]
-*Details can be found in [grading section](#grading).*
+There are three assignment groups that you must achieve a minimum grade of 40% in to pass the course.
+They are [Programming Assignments](#programming-assignments) (35%), [Exams](#exams) (35%), and [Participation](#participation) (30%).
+Final grades are calculated by rounding to the nearest whole number and converted to letter grades using the standard range.
+*Details can be found in [grading](#grading).*
 
 - **Late work:**
-[Add late policy summary here]
+Late submissions are accepted only for Programming assignments and Labs, and have a 10% deduction per calendar day late.
 *Details can be found in [late policy](#late-policy).*
-  
+
 - **Getting help:**
-[Add contact overview here]
-*Details can be found in [Instructor Information](#instructor-information).*
+There are a ton of office hours spread throughout the week so make use of them if you have any questions!
+In general, you can use the [class slack channel](https://cs-you-monterey.slack.com/archives/C0A752GDXQA) to ask questions (but not post code!), or send me questions (code okay!) via slack or my email.
+You are **not** allowed to use LLMs or classmates to write code for you, but you can ask them clarifying questions about material.
+*Details can be found in [personnel](#personnel).*
 
 ## Course Information
 
 ### Course Details
 
-- **Course Title:** [COURSE_NAME]
-- **Course Number:** [COURSE_CODE]
-- **Meeting Location:** [Physical location or virtual platform]
-- **Meeting Days & Times:** [Days and times of class meetings]
-- **Units:** [Number of units]
-- **Prerequisites:** [Prerequisites from catalog]
+- **Course Title:** Mobile and Ubiquitous Computing
+- **Course Number:** CST380
 
 ### Course Description
 
-[Course description from catalog]
-
-### Technology Requirements
-
-Students must have access to:
-- A computer with reliable internet connection
-- [Specific software/hardware requirements]
-- Access to Canvas learning management system
-- [Any other technology requirements specific to the course]
+Mobile devices are largely ubiquitous in modern society, ranging from cell phones to tablets and VR headsets.
+Learning how to develop applications for these devices, and learning how to make these applications as functional as possible is an increasingly important skill.
+In this course, we learn how to develop applications for the iOS platform, as well as how to make design considerations for these platforms.
+To learn how to develop these applications, students will work through labs and projects to develop the core programming skills for the swift programming language and the iOS platform.
+To learn how to consider the trade-offs for mobile development, students will learn how to consider the pros and cons of various development choices with regard to mobile devices.
 
 ### Course Objectives
 
 At the end of this class, you should be able to:
-
-1. [Learning objective 1]
-2. [Learning objective 2]
-3. [Learning objective 3]
+- Develop iOS applications using the Swift Programming Language
+- Understand different UI modalities and their best applications
+- Be able to research specific topics and apply them to your own projects
+- Be able to articulate and compare different mobile-oriented design challenges and choices
 
 ### Topics Covered
 
 The major topics covered in class are:
+- The swift programming language
+- The XCode development environment
+- Mobile UI modalities
+- Mobile specific trade-offs
 
-1. **[Topic 1]** – [Description]
-2. **[Topic 2]** – [Description]
-3. **[Topic 3]** – [Description]
+### Personnel
 
-### Instructor Information
-
-- [Instructor Name] (instructor)
-  - E-mail: [`[email]`](mailto:[email])
-  - Web: [**`[website]`**]([website])
-  - Office: [Office Location]
-  - Office Hours: [Office Hours], or [by appointment]([appointment_link])
+- Dr. Sam Ogden (instructor)
+  - E-mail: [`sogden@csumb.edu`](mailto:sogden@csumb.edu)
+  - Web: [**`https://csumb.edu/scd/sogden/`**](https://csumb.edu/scd/sogden/)
+  - Office: BIT205
+  - Office Hours: 2pm-3pm Mondays & 1pm-2pm Wednesdays, or [by appointment](https://calendar.app.google/5nqiqco4yzprUztS6)
 
 **Getting Help:** Office hours are available throughout the week - make use of them! 
-You can also use the class communication platform to ask questions (but not post code/answers on public channels!), or send me questions via email.
+You can also use the class communication platform to ask questions, or send me questions via email.
+
+#### Communicating online
+
+I will use email, Canvas, and Slack for online class communication.
+
+1.  **email** is to be used when you need to officially communicate something to me.
+    - e.g. “Can you double check this assignment grade for me?”
+2.  **Slack** will be used to answer content questions and give quick updates.
+    - e.g. “I think I found a bug in this quiz, could you check it out?”
+    - We have a slack channel on the codepaths workspace and I'm available on the [CS-U-Monterey](https://cs-you-monterey.slack.com/archives/C04LQ29KWV6) workspace that you should join.
+3.  **Canvas** will have information on assignments and due dates
+    - In general I don’t read things in canvas messages or comments.  For questions or comments please use Slack or email instead.
 
 ### Materials
 
-- Course textbook: [Textbook information]
-- Course lecture recordings: [Recording location]
-- Canvas Course Page: [Canvas link]
-- Syllabus: [syllabus.md](syllabus.md)
-
+- Most all of the assignments are located on [CodePaths](https://www.codepath.org/)
+- Canvas Course Page: [CST334 on Canvas](https://csumb.instructure.com/courses/32639)
+- Syllabus: [CST380 Syllabus](syllabus.md)
 
 ## Grading
 
-There are three groups of assignments, briefly described in the table below.
+
+There are three groups of assignments, briefly described in <a href="#table:assignment-values" data-reference-type="ref" data-reference="table:assignment-values">Table 1</a>.
 **Getting below a 40% in any of these three groups will result in failing the class.**
+
+<a id="table-assignment-values"></a>
 
 | Assignment Kind                                       | Value |
 |:------------------------------------------------------|:-----:|
-| [Programming assignments](#programming-assignments)   |  35%  |
-| [Exams](#exams)                                       |  35%  |
-| [Participation](#participation)                       |  30%  |
+| Weekly Labs                                           | 30%   |
+| Weekly Projects                                       | 30%   |
+| Special Topics (team)                                 | 15%   |
+| Final Project (team)                                  | 20%   |
+| Misc                                                  | 5%    |
 
-### Programming Assignments
+*Table 1. Points available per assignment type.*
 
-[Description of programming assignments, submission format, grading criteria]
 
-### Exams
+***Weekly Labs*** are small, guided projects that are meant to introduce topics and provide you with the background to complete the weekly projects.
+They should be turned in on Canvas.
 
-[Description of exam format, frequency, content coverage]
+***Weekly Projects*** are projects that you create to showcase the skills learned each week.
+These are the homework associated with the course.
+They should be turned in via Codepaths and with a screenshot submitted on canvas.
+Note that on Codepaths the scoring for these projects is broken up into ``required'' and ``stretch'' goals, with roughly a third of the points being stretch goals; for our class, all of these are considered when grading.
 
-### Participation
+***Special Topics*** are going to be presented part way through the semester.
+As a small team you will pick a topic of interest in mobile development or iOS programming and present it to the class, along with a small Minimum Working Example.
+The goal is to get you, and your classmates, interested in something you might use in your final project.
 
-In-class participation has four components:
+***Final Project*** are group projects we will complete in the second half of the semester, where you develop a project together.
+This project will be a finished application and will include code, a demonstration, and a presentation highlighting the application you have build.
 
-1. [**Component 1**](#component-1) (10%)
-2. [**Component 2**](#component-2) (5%)
-3. [**Component 3**](#component-3) (5%)
-4. [**Component 4**](#component-4) (10%)
+***Misc*** work will be for tasks that need to be completed, such as signing up for codepaths.
 
-### Extra Credit Potential
+## CodePaths
 
-**Introductory Meeting (2%):** During the first month of class, stop by my office and chat for a bit to get to know each other, and you'll get a small number of bonus points.
+CodePaths is providing a number of assignments designed to help you learn how to develop applications for iOS.
+These assignments are submitted through the CodePaths portal and are graded by CodePaths.
+Their team grades two days a week (Monday and Wednesday), and so will provide feedback within 24hours of these days.
+They will also provide feedback and be available for discussion on the CodePaths slack workspace.
+While they do accept late work and will provide the grade out of 100\%, any late work will have it's score adjusted by me in canvas per late policy.
+
 
 ### Grade Assignment
 
-Grades as assigned based on the standard ranges, which are outlined below.
+Grades as assigned based on the standard ranges, which are outlined below, with exceptions made based on the [general grading requirements](#grading) guidance.
+Note that $[90,93)$ means "at least 90 but less than 93" (e.g. $90 \leq score < 93$) and that all grades will be rounded to the nearest whole number (e.g. a 92.1 will be rounded to a 92, but a 92.5 will be rounded to a 93).
+Additionally, note that there will be no curve.
 
 | Grade Range     | Letter Grade |
 |:----------------|:-------------|
@@ -131,29 +150,25 @@ Grades as assigned based on the standard ranges, which are outlined below.
 
 ### Attendance
 
-[Attendance policy]
+Attending lecture is strongly correlated with academic achievement[^2], and thus is strongly encouraged.  However, if you are sick, please do not come to class.  
+
 
 ### Late Policy
 
-[Late work policy details]
+Almost all assignments can be submitted later, albeit with a late penalty.
+This late penalty will be a 10% reduction in maximum points per day, with a maximum reduction of 60%[^3].
+
+**If you do fall behind in class, please set up a time to meet with me to discuss getting you back on track – my goal is to have you succeed in class and I want to find a way to make that happen.**
 
 ## Academic Honor Code
 
-**You may talk to other students or LLMs for:**
+In addition to the department- and school-wide policies on academic honesty outlined elsewhere on canvas, I wanted to emphasize a few key points about expectations in class.  Note that these are different from other classes I teach.
 
-- Clarification on topics covered in class
-- Clarification of what *provided* code is doing
-- Generating more examples
-- Understanding compiler errors
+Specifically, I believe that LLMs will be an important tool in our tool kits as computer scientists and that using them to help us understand new topics and modalities will lead to us using them in a way similar to how we already use google and StackOverflow.
+To this end, I encourage you to interact with ChatGPT and other LLMs to further your knowledge of topics in this class.
 
-**You may *not* talk to other students or LLMs for:**
-
-- Code and assignment answers
-- Exam questions and answers
-
-### The use of LLMs
-
-[LLM usage policy for the course]
+Mobile development requires good coding skills and a strong understanding of the trade-offs inherent in mobile-oriented development and interface design.
+Therefore, while LLMs can help you understand the coding, there are often problems that are beyond its scope.
 
 ### University Academic Integrity Policy
 
@@ -186,3 +201,12 @@ The process for syllabus changes:
 4. Change takes effect after notification period
 
 Students are responsible for staying current with any announced changes to the syllabus.
+
+---
+
+[^1]: I should note that it's not like there's a place for direct extra credit for bugs, but I generally find a way to tweak things a bit depending on how big a bug it is.  Regardless I always appreciate feedback.
+[^2]: Attendance and grade are [strongly correlated](https://oapub.org/edu/index.php/ejes/article/view/3887) (not just because of the attendance quizzes but they also factor in).
+[^3]: This is done automatically through canvas and it "chops off" the points that you can't get.  For example, if you turn in an assignment 1 day late and would have gotten a 95% on it you will get a 90% for it.
+[^4]: But don't trust their math.  They're getting better but not great.  Practice quizzes are a better place to check this out as I try to provide walk throughs.
+[^5]: Or, you know, come talk to me.  I know a lot more about the specifics of this class than the AI does.
+
