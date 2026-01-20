@@ -64,7 +64,6 @@ I will use email, Canvas, and Slack for online class communication.
 
 
 There are three groups of assignments, briefly described in <a href="#table-assignment-values" data-reference-type="ref" data-reference="table-assignment-values">Table 1</a>.
-**Getting below a 40% in any of these three groups will result in failing the class.**
 
 <a id="table-assignment-values"></a>
 
@@ -93,7 +92,7 @@ As a small team you will pick a topic of interest in mobile development or iOS p
 The goal is to get you, and your classmates, interested in something you might use in your final project.
 
 ***Final Project*** are group projects we will complete in the second half of the semester, where you develop a project together.
-This project will be a finished application and will include code, a demonstration, and a presentation highlighting the application you have build.
+This project will be a finished application and will include code, a demonstration, and a presentation highlighting the application you have built.
 
 ***Misc*** work will be for tasks that need to be completed, such as signing up for CodePath.
 
@@ -103,7 +102,7 @@ CodePath is providing a number of assignments designed to help you learn how to 
 These assignments are submitted through the CodePath portal and are graded by CodePath.
 Their team grades two days a week (Monday and Wednesday), and so will provide feedback within 24hours of these days.
 They will also provide feedback and be available for discussion on the CodePath slack workspace.
-While they do accept late work and will provide the grade out of 100\%, any late work will have it's score adjusted by me in canvas per late policy.
+While they do accept late work and will provide the grade out of 100\%, any late work will have its score adjusted by me in canvas per late policy.
 
 
 ### Grade Assignment
@@ -184,9 +183,6 @@ Students are responsible for staying current with any announced changes to the s
 
 ---
 
-[^1]: I should note that it's not like there's a place for direct extra credit for bugs, but I generally find a way to tweak things a bit depending on how big a bug it is.  Regardless I always appreciate feedback.
 [^2]: Attendance and grade are [strongly correlated](https://oapub.org/edu/index.php/ejes/article/view/3887) (not just because of the attendance quizzes but they also factor in).
 [^3]: This is done automatically through canvas and it "chops off" the points that you can't get.  For example, if you turn in an assignment 1 day late and would have gotten a 95% on it you will get a 90% for it.
-[^4]: But don't trust their math.  They're getting better but not great.  Practice quizzes are a better place to check this out as I try to provide walk throughs.
-[^5]: Or, you know, come talk to me.  I know a lot more about the specifics of this class than the AI does.
 
